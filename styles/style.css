@@ -30,9 +30,9 @@ figure {
 }
 
 .theme_dark {
-    --bg-color: #000; /* Тёмный фон */
-    --text-color: #F3EFEC; /* Светлый текст */
-    --accent-color: #FFAB6B; /* Акцентный цвет */
+    --bg-color: #000;
+    --text-color: #F3EFEC;
+    --accent-color: #FFAB6B;
 }
 
 
@@ -57,7 +57,7 @@ figure {
 
 .header__title {
     font-size: clamp(7.5rem, 7.5rem + 0vw, 7.5rem);
-    padding-bottom: 40px;
+    padding-bottom: 1px;
     text-align: center;
 }
 
@@ -119,6 +119,12 @@ figure {
     background-image: url('../images/marker-light.svg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.content__paragraph-change{
+    padding: 0 175px 0 175px;
+    line-height: 1.5;
+    font-family: "Rage Italic", sans-serif;
 }
 
 .content__text-block_type_first-lettered .content__paragraph:first-of-type::first-letter {
